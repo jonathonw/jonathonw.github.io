@@ -1,0 +1,105 @@
+body {
+  margin-top: 1.0em;
+  background-color: #cccccc;
+  background: url("background_grain.png");
+  font-family: "Helvetica", "Arial";
+  color: #777777;
+}
+
+#container {
+  margin: 0 auto;
+  width: 850px;
+  background-color: white;
+  -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border: solid 1px black;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  
+}
+
+h1 { 
+  font-size: 3.8em;
+  color: #777777;
+  
+  margin-bottom: 3px;
+}
+
+h1 .small {
+  font-size: 0.4em;
+}
+
+h1 a { 
+  text-decoration: none 
+}
+
+h2 {
+  font-size: 1.5em; 
+  color: #777777; 
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+  background: url("header.jpg");
+  -moz-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  
+  text-align: center; 
+  vertical-align: bottom;
+  color: #777777; 
+}
+
+#header #titleContainer {
+  position:absolute;
+  width: 100%;
+  bottom:0px;
+}
+
+#header h1 { 
+  position:absolute;
+  bottom:0px;
+  margin:0px;
+  text-align: center; 
+  color: white; 
+  font-size: 1.5em;
+}
+
+a { 
+  color: #82d872; 
+}
+
+.description { 
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.download { 
+  float: right; 
+}
+
+pre { 
+  background: #000; 
+  color: #fff;
+  padding: 15px;
+}
+
+hr {
+  border: 0;
+  width: 80%;
+  border-bottom:
+  1px solid #aaa
+}
+
+.footer { 
+  text-align:center; 
+  padding-top:30px; 
+  font-style: italic; 
+}
