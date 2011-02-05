@@ -1,7 +1,6 @@
 body {
   margin-top: 1.0em;
-  background-color: #aaaaaa;
-  background: url("background_grain.png");
+  background: #aaa url("background_grain.png");
   font-family: "Helvetica", "Arial";
   font-size: 12pt;
   color: #444444;
@@ -34,8 +33,7 @@ h2 {
   width: 100%;
   height: 200px;
   margin: 0px;
-  background-color: #888888;
-  background: url("header.jpg");
+  background: #888 url("header.jpg");
   -moz-border-top-right-radius: 10px;
   border-top-right-radius: 10px;
   -moz-border-top-left-radius: 10px;
