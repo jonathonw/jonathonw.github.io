@@ -4,9 +4,11 @@ body {
   font-family: "Helvetica", "Arial";
   font-size: 12pt;
   color: #444444;
+  
 }
 
 #container {
+  position:relative;
   margin: 0 auto;
   width: 850px;
   background-color: white;
@@ -73,6 +75,35 @@ h2 {
   font-weight: bolder;
 }
 
+#sidebar {
+  float: right;
+  background-color: #ddd;
+  width:200px;
+  margin: 5px;
+  padding: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 10pt;
+}
+
+#sidebar h1 {
+  font-size: 10pt;
+  font-weight: bolder;
+  padding: 0px;
+  margin: 0px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-left:5px;
+}
+
+#sidebar ul li {
+  margin-top: 3px;
+}
+
 a { 
   color: #777; 
 }
@@ -82,9 +113,14 @@ a {
 }
 
 #footer {
+  clear: both;
   border-top: solid 1px #ccc;
   color: #888;
   margin: 10px;
   padding-top: 3px;
   font-size: 8pt;
+}
+#footer p {
+  margin: 0px;
+  margin-top: 2px;
 }
