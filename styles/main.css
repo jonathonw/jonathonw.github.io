@@ -1,6 +1,6 @@
 body {
   margin-top: 1.0em;
-  background: #aaa url("background_grain.png");
+  background: #aaa url("/images/background_grain.png");
   font-family: "Helvetica", "Arial";
   font-size: 12pt;
   color: #444444;
@@ -18,21 +18,14 @@ body {
   border: solid 1px black;  
 }
 
-h1 a { 
-  text-decoration: none 
-}
 
-h2 {
-  font-size: 1.5em; 
-  color: #777777; 
-}
 
 #header {
   position: relative;
   width: 100%;
   height: 200px;
   margin: 0px;
-  background: #888 url("header.jpg");
+  background: #888 url("/images/header.jpg");
   vertical-align: bottom;
   color: #777777; 
 }
@@ -51,6 +44,12 @@ h2 {
   padding-left: 5px;
   padding-bottom: 5px;
 }
+
+#header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
 #header #titleContainer ul {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -79,7 +78,7 @@ h2 {
   float: right;
   background-color: #ddd;
   width:200px;
-  margin: 5px;
+  margin: 10px;
   padding: 5px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -110,6 +109,50 @@ a {
 
 #content {
   margin: 10px;
+  width: 600px;
+}
+
+#content h1.postTitle { 
+  font-size: 16pt;
+  margin-bottom: 0pt;
+}
+
+#content h1.postTitle a {
+  text-decoration: none;
+  color: #444;
+}
+
+#content p.postDate {
+  font-size: 8pt;
+  color: #888;
+  margin: 0px;
+  padding: 0px;
+}
+
+#content h1 {
+  font-size: 14pt;
+}
+
+#content h2 {
+  font-size: 12pt;
+}
+
+#content h3 {
+  font-size: 12pt;
+}
+
+#content p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#content pre {
+  font-size: 10pt;
+  border: solid 1px #888;
+  background-color: #eee;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
 #footer {
