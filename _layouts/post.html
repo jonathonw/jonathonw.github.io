@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<h1 class="postTitle"><a href="{{ url }}">{{ page.title }}</a></h1>
-<p class="postDate">posted on {{ page.date | date_to_string }} :: <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">comments</a></p>
+<h1 class="postTitle"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<p class="postDate">posted on {{ page.date | date_to_string }} :: <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">comments</a></p>
 {{ content }}
 
 <div id="disqus_thread"></div>
@@ -12,7 +12,7 @@ layout: default
 
     // The following are highly recommended additional parameters. Remove the slashes in front to use.
     var disqus_identifier = '{{ page.id }}';
-    var disqus_url = '{{ url }}';
+    var disqus_url = '{{ page.url }}';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
