@@ -6,7 +6,7 @@ title: "Kindle 3.1 First Look: Page Numbers!"
 Some [neat news out of Amazon for Kindle owners today](http://www.kindlepost.com/2011/02/early-preview-of-free-software-update-for-kindle-.html):  
 there's a software update coming soon which brings public notes, real page
 numbers, a new layout for periodicals, and some new social features to the
-device.  All this will be downloaded automatically wehn the update becomes
+device.  All this will be downloaded automatically when the update becomes
 available soon, but the impatient can check it out now:  [you can download the
 software update manually here](http://www.amazon.com/gp/help/customer/display.html/ref=hp_navbox_top_kindlelg?nodeId=200529700).
 
